@@ -50,6 +50,7 @@ h1 {
 
 .sub-section {
     font-style: italic;
+    font-weight: normal;
 }
 
 
@@ -60,7 +61,7 @@ h1 {
     .alert-info {
         display: none;
     }
-
+/* list needs to be moved to the far right of header   */
     h1 {
         justify-content: flex-start;
     }
