@@ -18,6 +18,7 @@ nav, h1, h2, ul, li {
     border-color: lightgray;
     border-style: solid;
 }
+
 .alert-info > a {
     color: #333333;
     text-decoration: none;
@@ -25,6 +26,7 @@ nav, h1, h2, ul, li {
     padding: 1em;
     font-weight: 400;
 }
+
 h1 {
     margin: auto;
     justify-content: center;
@@ -37,13 +39,15 @@ h1 {
     list-style: none;
     width: 100%;
     padding-inline-start: 0;
-
+    justify-content: flex-end;
 }
+
 .nav-links > li {
     padding: 1em;
     margin-bottom: .7em;
     background-color: lightgray;
 }
+
 .nav-links > li > a {
     margin: auto;
 }
@@ -53,10 +57,8 @@ h1 {
 }
 
 
-
-
 /* Medium devices (desktops, 992px and up) */
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
     .alert-info {
         display: none;
     }
