@@ -32,6 +32,7 @@ h1 {
     justify-content: center;
     font-weight: 600;
     font-size: 45px;
+    width: 20%;
 }
 
 .nav-links {
@@ -56,25 +57,44 @@ h1 {
     font-weight: normal;
 }
 
+.header-img {
+    content: url("img/339x224.png");
+    width: 100%;
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     .alert-info {
         display: none;
     }
-/* list needs to be moved to the far right of header   */
+
+    /* list needs to be moved to the far right of header   */
     h1 {
-        justify-content: flex-start;
+        width: 20%;
+        display: inline-block;
     }
 
     .nav-links {
         flex-direction: row;
         align-items: center;
+        justify-content: flex-end;
+        padding-left: 0;
+        width: max-content;
+    }
+
+    nav {
+        padding-left: 0;
+        width: max-content;
+        display: inline-block;
+        margin-left: 52%;
     }
 
     .nav-links > li {
         background-color: white;
     }
 
-
+    .header-img {
+        content: url("https://via.placeholder.com/900x400?");
+        width: 98.5%;
+    }
 }
