@@ -62,16 +62,34 @@ h1 {
     width: 100%;
 }
 
+
 footer {
     display: flex;
+
+}
+footer > ul {
+    width: 100%;
     flex-direction: row;
-
-}
-ul {
-    list-style: none;
-
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-left: 0;
 }
 
+footer > ul > li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+#copyright {
+    margin-right: auto;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.social-media-links {
+    height: 30px;
+    width: 30px;
+}
 
 
 
