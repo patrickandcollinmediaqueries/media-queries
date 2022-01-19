@@ -64,6 +64,13 @@ h1 {
 
 footer {
     margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#social-media-links {
+
+    content: url('img/1260673.png') url('img/download (1).jpeg') url('img/Glossy-Instagram-icon-PNG.png');
 }
 
 /* Medium devices (desktops, 992px and up) */
