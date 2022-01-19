@@ -62,6 +62,10 @@ h1 {
     width: 100%;
 }
 
+footer {
+    margin-bottom: 0;
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     .alert-info {
@@ -72,6 +76,7 @@ h1 {
     h1 {
         width: 20%;
         display: inline-block;
+        float: left
     }
 
     .nav-links {
@@ -86,7 +91,7 @@ h1 {
         padding-left: 0;
         width: max-content;
         display: inline-block;
-        margin-left: 52%;
+        float: right
     }
 
     .nav-links > li {
@@ -95,6 +100,21 @@ h1 {
 
     .header-img {
         content: url("https://via.placeholder.com/900x400?");
-        width: 98.5%;
+        width: 100%;
+    }
+    .main {
+        display: inline-block;
+        width: 70%;
+        float: left;
+
+    }
+
+    .sub-section {
+        display: inline-block;
+        width: 30%;
+        float: right;
+    }
+    footer {
+        margin-top: 15em;
     }
 }
